@@ -1,0 +1,4 @@
+git_url("git@github.com:samantharachelb/codesigning.git")
+type("development")
+app_identifier(["ca.samantharachelb.ios.lively"])
+username("me@samantharachelb.me")

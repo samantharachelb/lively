@@ -1,0 +1,12 @@
+exclude_paths:
+  - '.github/**'
+  - '.idea/**'
+  - 'Pods/**'
+  - 'MaterialUITests/**'
+  - '**.md'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'Podfile'
+  - 'Podfile.lock'
+  - 'MaterialUISwift.podspec'
+  - 'license'

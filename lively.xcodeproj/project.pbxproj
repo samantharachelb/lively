@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10504621ECCDA6E161776C1A /* Pods_lively.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB43297154811971A9DB5902 /* Pods_lively.framework */; };
+		3A76E86894E58440C9E1879C /* Pods_livelyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF665F0AC9C70EEE8ADD508 /* Pods_livelyTests.framework */; };
+		9ADB2EB93BFE54D6D69A9EF2 /* Pods_livelyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B5D04BBC813AF4DF885857 /* Pods_livelyUITests.framework */; };
+		A17EE173246EFC7100EB8B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EE172246EFC7100EB8B2E /* AppDelegate.swift */; };
+		A17EE175246EFC7100EB8B2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EE174246EFC7100EB8B2E /* SceneDelegate.swift */; };
+		A17EE177246EFC7100EB8B2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EE176246EFC7100EB8B2E /* ViewController.swift */; };
+		A17EE17A246EFC7100EB8B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17EE178246EFC7100EB8B2E /* Main.storyboard */; };
+		A17EE17D246EFC7100EB8B2E /* lively.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A17EE17B246EFC7100EB8B2E /* lively.xcdatamodeld */; };
+		A17EE17F246EFC7300EB8B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17EE17E246EFC7300EB8B2E /* Assets.xcassets */; };
+		A17EE182246EFC7300EB8B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17EE180246EFC7300EB8B2E /* LaunchScreen.storyboard */; };
+		A17EE18D246EFC7300EB8B2E /* livelyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EE18C246EFC7300EB8B2E /* livelyTests.swift */; };
+		A17EE198246EFC7300EB8B2E /* livelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EE197246EFC7300EB8B2E /* livelyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17EE189246EFC7300EB8B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17EE167246EFC7100EB8B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17EE16E246EFC7100EB8B2E;
+			remoteInfo = lively;
+		};
+		A17EE194246EFC7300EB8B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17EE167246EFC7100EB8B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17EE16E246EFC7100EB8B2E;
+			remoteInfo = lively;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043EEC9B6540BAE13B5B9CB6 /* Pods-lively.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lively.debug.xcconfig"; path = "Target Support Files/Pods-lively/Pods-lively.debug.xcconfig"; sourceTree = "<group>"; };
+		441A8F893850BDF176CC5503 /* Pods-livelyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livelyUITests.release.xcconfig"; path = "Target Support Files/Pods-livelyUITests/Pods-livelyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		457E766E628ACE86C595C746 /* Pods-livelyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livelyUITests.debug.xcconfig"; path = "Target Support Files/Pods-livelyUITests/Pods-livelyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF665F0AC9C70EEE8ADD508 /* Pods_livelyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_livelyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EE16F246EFC7100EB8B2E /* lively.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lively.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EE172246EFC7100EB8B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A17EE174246EFC7100EB8B2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A17EE176246EFC7100EB8B2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A17EE179246EFC7100EB8B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17EE17C246EFC7100EB8B2E /* lively.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lively.xcdatamodel; sourceTree = "<group>"; };
+		A17EE17E246EFC7300EB8B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17EE181246EFC7300EB8B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A17EE183246EFC7300EB8B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17EE188246EFC7300EB8B2E /* livelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EE18C246EFC7300EB8B2E /* livelyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livelyTests.swift; sourceTree = "<group>"; };
+		A17EE18E246EFC7300EB8B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17EE193246EFC7300EB8B2E /* livelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EE197246EFC7300EB8B2E /* livelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = livelyUITests.swift; sourceTree = "<group>"; };
+		A17EE199246EFC7300EB8B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA701B83F0E127BDB249A5C1 /* Pods-livelyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livelyTests.debug.xcconfig"; path = "Target Support Files/Pods-livelyTests/Pods-livelyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C113E8A5CDB927B9D9559372 /* Pods-lively.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lively.release.xcconfig"; path = "Target Support Files/Pods-lively/Pods-lively.release.xcconfig"; sourceTree = "<group>"; };
+		C3B5D04BBC813AF4DF885857 /* Pods_livelyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_livelyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9EF0723AF350EA3AA843115 /* Pods-livelyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-livelyTests.release.xcconfig"; path = "Target Support Files/Pods-livelyTests/Pods-livelyTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB43297154811971A9DB5902 /* Pods_lively.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lively.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17EE16C246EFC7100EB8B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10504621ECCDA6E161776C1A /* Pods_lively.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17EE185246EFC7300EB8B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A76E86894E58440C9E1879C /* Pods_livelyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17EE190246EFC7300EB8B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADB2EB93BFE54D6D69A9EF2 /* Pods_livelyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39155A9216D1EA5EBFD8175E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				043EEC9B6540BAE13B5B9CB6 /* Pods-lively.debug.xcconfig */,
+				C113E8A5CDB927B9D9559372 /* Pods-lively.release.xcconfig */,
+				BA701B83F0E127BDB249A5C1 /* Pods-livelyTests.debug.xcconfig */,
+				C9EF0723AF350EA3AA843115 /* Pods-livelyTests.release.xcconfig */,
+				457E766E628ACE86C595C746 /* Pods-livelyUITests.debug.xcconfig */,
+				441A8F893850BDF176CC5503 /* Pods-livelyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A17EE166246EFC7100EB8B2E = {
+			isa = PBXGroup;
+			children = (
+				A17EE171246EFC7100EB8B2E /* lively */,
+				A17EE18B246EFC7300EB8B2E /* livelyTests */,
+				A17EE196246EFC7300EB8B2E /* livelyUITests */,
+				A17EE170246EFC7100EB8B2E /* Products */,
+				39155A9216D1EA5EBFD8175E /* Pods */,
+				C6C0FC04E66C91EB9A3DB9CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A17EE170246EFC7100EB8B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17EE16F246EFC7100EB8B2E /* lively.app */,
+				A17EE188246EFC7300EB8B2E /* livelyTests.xctest */,
+				A17EE193246EFC7300EB8B2E /* livelyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17EE171246EFC7100EB8B2E /* lively */ = {
+			isa = PBXGroup;
+			children = (
+				A17EE172246EFC7100EB8B2E /* AppDelegate.swift */,
+				A17EE174246EFC7100EB8B2E /* SceneDelegate.swift */,
+				A17EE176246EFC7100EB8B2E /* ViewController.swift */,
+				A17EE178246EFC7100EB8B2E /* Main.storyboard */,
+				A17EE17E246EFC7300EB8B2E /* Assets.xcassets */,
+				A17EE180246EFC7300EB8B2E /* LaunchScreen.storyboard */,
+				A17EE183246EFC7300EB8B2E /* Info.plist */,
+				A17EE17B246EFC7100EB8B2E /* lively.xcdatamodeld */,
+			);
+			path = lively;
+			sourceTree = "<group>";
+		};
+		A17EE18B246EFC7300EB8B2E /* livelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17EE18C246EFC7300EB8B2E /* livelyTests.swift */,
+				A17EE18E246EFC7300EB8B2E /* Info.plist */,
+			);
+			path = livelyTests;
+			sourceTree = "<group>";
+		};
+		A17EE196246EFC7300EB8B2E /* livelyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A17EE197246EFC7300EB8B2E /* livelyUITests.swift */,
+				A17EE199246EFC7300EB8B2E /* Info.plist */,
+			);
+			path = livelyUITests;
+			sourceTree = "<group>";
+		};
+		C6C0FC04E66C91EB9A3DB9CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB43297154811971A9DB5902 /* Pods_lively.framework */,
+				4DF665F0AC9C70EEE8ADD508 /* Pods_livelyTests.framework */,
+				C3B5D04BBC813AF4DF885857 /* Pods_livelyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17EE16E246EFC7100EB8B2E /* lively */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17EE19C246EFC7300EB8B2E /* Build configuration list for PBXNativeTarget "lively" */;
+			buildPhases = (
+				EB1DD68B056E138F1A4AA4CE /* [CP] Check Pods Manifest.lock */,
+				A17EE16B246EFC7100EB8B2E /* Sources */,
+				A17EE16C246EFC7100EB8B2E /* Frameworks */,
+				A17EE16D246EFC7100EB8B2E /* Resources */,
+				7FE4E0B52B458C7C1082CA5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lively;
+			productName = lively;
+			productReference = A17EE16F246EFC7100EB8B2E /* lively.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17EE187246EFC7300EB8B2E /* livelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17EE19F246EFC7300EB8B2E /* Build configuration list for PBXNativeTarget "livelyTests" */;
+			buildPhases = (
+				AFA2AC991502A022148CEED9 /* [CP] Check Pods Manifest.lock */,
+				A17EE184246EFC7300EB8B2E /* Sources */,
+				A17EE185246EFC7300EB8B2E /* Frameworks */,
+				A17EE186246EFC7300EB8B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17EE18A246EFC7300EB8B2E /* PBXTargetDependency */,
+			);
+			name = livelyTests;
+			productName = livelyTests;
+			productReference = A17EE188246EFC7300EB8B2E /* livelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17EE192246EFC7300EB8B2E /* livelyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17EE1A2246EFC7300EB8B2E /* Build configuration list for PBXNativeTarget "livelyUITests" */;
+			buildPhases = (
+				C627FC4B53CB3EC049F2D9F6 /* [CP] Check Pods Manifest.lock */,
+				A17EE18F246EFC7300EB8B2E /* Sources */,
+				A17EE190246EFC7300EB8B2E /* Frameworks */,
+				A17EE191246EFC7300EB8B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17EE195246EFC7300EB8B2E /* PBXTargetDependency */,
+			);
+			name = livelyUITests;
+			productName = livelyUITests;
+			productReference = A17EE193246EFC7300EB8B2E /* livelyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17EE167246EFC7100EB8B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Samantha Emily-Rachel Belnavis";
+				TargetAttributes = {
+					A17EE16E246EFC7100EB8B2E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A17EE187246EFC7300EB8B2E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A17EE16E246EFC7100EB8B2E;
+					};
+					A17EE192246EFC7300EB8B2E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = A17EE16E246EFC7100EB8B2E;
+					};
+				};
+			};
+			buildConfigurationList = A17EE16A246EFC7100EB8B2E /* Build configuration list for PBXProject "lively" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17EE166246EFC7100EB8B2E;
+			productRefGroup = A17EE170246EFC7100EB8B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17EE16E246EFC7100EB8B2E /* lively */,
+				A17EE187246EFC7300EB8B2E /* livelyTests */,
+				A17EE192246EFC7300EB8B2E /* livelyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17EE16D246EFC7100EB8B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17EE182246EFC7300EB8B2E /* LaunchScreen.storyboard in Resources */,
+				A17EE17F246EFC7300EB8B2E /* Assets.xcassets in Resources */,
+				A17EE17A246EFC7100EB8B2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17EE186246EFC7300EB8B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17EE191246EFC7300EB8B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FE4E0B52B458C7C1082CA5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lively/Pods-lively-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lively/Pods-lively-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lively/Pods-lively-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFA2AC991502A022148CEED9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-livelyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C627FC4B53CB3EC049F2D9F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-livelyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1DD68B056E138F1A4AA4CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lively-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17EE16B246EFC7100EB8B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17EE17D246EFC7100EB8B2E /* lively.xcdatamodeld in Sources */,
+				A17EE177246EFC7100EB8B2E /* ViewController.swift in Sources */,
+				A17EE173246EFC7100EB8B2E /* AppDelegate.swift in Sources */,
+				A17EE175246EFC7100EB8B2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17EE184246EFC7300EB8B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17EE18D246EFC7300EB8B2E /* livelyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17EE18F246EFC7300EB8B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17EE198246EFC7300EB8B2E /* livelyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17EE18A246EFC7300EB8B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17EE16E246EFC7100EB8B2E /* lively */;
+			targetProxy = A17EE189246EFC7300EB8B2E /* PBXContainerItemProxy */;
+		};
+		A17EE195246EFC7300EB8B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17EE16E246EFC7100EB8B2E /* lively */;
+			targetProxy = A17EE194246EFC7300EB8B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A17EE178246EFC7100EB8B2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17EE179246EFC7100EB8B2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17EE180246EFC7300EB8B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17EE181246EFC7300EB8B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17EE19A246EFC7300EB8B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17EE19B246EFC7300EB8B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17EE19D246EFC7300EB8B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043EEC9B6540BAE13B5B9CB6 /* Pods-lively.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = lively/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.ios.lively;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17EE19E246EFC7300EB8B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C113E8A5CDB927B9D9559372 /* Pods-lively.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = lively/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.ios.lively;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A17EE1A0246EFC7300EB8B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA701B83F0E127BDB249A5C1 /* Pods-livelyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = livelyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.ios.livelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lively.app/lively";
+			};
+			name = Debug;
+		};
+		A17EE1A1246EFC7300EB8B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EF0723AF350EA3AA843115 /* Pods-livelyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = livelyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.ios.livelyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lively.app/lively";
+			};
+			name = Release;
+		};
+		A17EE1A3246EFC7300EB8B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457E766E628ACE86C595C746 /* Pods-livelyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = livelyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.ios.livelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lively;
+			};
+			name = Debug;
+		};
+		A17EE1A4246EFC7300EB8B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 441A8F893850BDF176CC5503 /* Pods-livelyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXWT6SEGG;
+				INFOPLIST_FILE = livelyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.samantharachelb.ios.livelyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lively;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17EE16A246EFC7100EB8B2E /* Build configuration list for PBXProject "lively" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17EE19A246EFC7300EB8B2E /* Debug */,
+				A17EE19B246EFC7300EB8B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17EE19C246EFC7300EB8B2E /* Build configuration list for PBXNativeTarget "lively" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17EE19D246EFC7300EB8B2E /* Debug */,
+				A17EE19E246EFC7300EB8B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17EE19F246EFC7300EB8B2E /* Build configuration list for PBXNativeTarget "livelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17EE1A0246EFC7300EB8B2E /* Debug */,
+				A17EE1A1246EFC7300EB8B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17EE1A2246EFC7300EB8B2E /* Build configuration list for PBXNativeTarget "livelyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17EE1A3246EFC7300EB8B2E /* Debug */,
+				A17EE1A4246EFC7300EB8B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A17EE17B246EFC7100EB8B2E /* lively.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A17EE17C246EFC7100EB8B2E /* lively.xcdatamodel */,
+			);
+			currentVersion = A17EE17C246EFC7100EB8B2E /* lively.xcdatamodel */;
+			path = lively.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A17EE167246EFC7100EB8B2E /* Project object */;
+}
