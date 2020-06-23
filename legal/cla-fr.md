@@ -7,7 +7,7 @@ document contraignant, veuillez donc vous assurer de l'avoir lu attentivement av
 
 Une copie de ce document est également disponible dans les langues suivantes:
 
-- Anglaise
+- [Anglaise](https://gist.github.com/samantharachelb/d5ebddc509a7ed16ec0ee2307d00e539)
 
 ## 1. Définitions
 «Vous» signifie la personne qui nous soumet une contribution.

@@ -7,7 +7,7 @@ binding document, so please ensure that you have read it carefully before agreei
 
 A copy of this document is also available in the following languages:
 
-- French
+- [French](https://gist.github.com/samantharachelb/ee6785da06d310326b1dd74505272bc8)
 
 ## 1. Definitions
 “You” means the individual who Submits a Contribution to Us.
