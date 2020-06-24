@@ -30,13 +30,13 @@ This project and everyone participating in it are governed by the [SpaceBurrito 
 
 This section will guide you through the process of submitting a bug report. Following these guidelines will help maintainers and community contributors understand the report, reproduce the problem, and find related reports.
 
-Before creating a bug report, please check both the [project issues](https://github.com/samantharachelb/lively/issues) and [this list](#before-creating-a-report) before doing so, as it might be unnecessary to create a new bug report.
+Before creating a bug report, please check both the [project issues](https://github.com/lively-app/lively/issues) and [this list](#before-creating-a-report) before doing so, as it might be unnecessary to create a new bug report.
 
 > Please note: If you find an issue that has been **closed** but it seems like it may be similar and/or related to the bug that you’re reporting, include a link to that issue in the body of your bug report.
 
 #### Before Creating a Report
 
-- [Search](https://github.com/samantharachelb/lively/issues?q=is%3Aissue+is%3Aopen+) through the lively issues to see if the bug/problem has already been reported **and** if that issue is still open.
+- [Search](https://github.com/lively-app/lively/issues?q=is%3Aissue+is%3Aopen+) through the lively issues to see if the bug/problem has already been reported **and** if that issue is still open.
 
 - See if you can reproduce the issue by:
   - Using the **latest stable** version of lively
